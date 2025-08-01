@@ -14,10 +14,10 @@ class CustomFooter extends HTMLElement {
                         <div class="site-footer__top-right">
                             <p class="site-footer__top-right-text">Call Junkle - Junk Removal with a purpose</p>
                             <div class="site-footer__social">
-                                <a href="https://www.youtube.com/calljunkle"><i class="fab fa-youtube"></i></a>
-                                <a href="https://www.facebook.com/calljunkle"><i class="fab fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/calljunkle"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.tiktok.com/calljunkle"><i class="fab fa-tiktok"></i></a>
+                                <a href="https://www.youtube.com/calljunkle" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61578440687864" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/calljunkle" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.tiktok.com/calljunkle" target="_blank"><i class="fab fa-tiktok"></i></a>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ class CustomFooter extends HTMLElement {
                                         <p class="footer-widget__contact-mail-phone">
                                             <a href="mailto:info@support.calljunkle.com"
                                                 class="footer-widget__contact-mail">info@support.calljunkle.com</a>
-                                            <a href="tel:5555555555" class="footer-widget__contact-phone">+ 1 555 555-5555</a>
+                                            <a href="tel:(678) 367-2975" class="footer-widget__contact-phone">(678) 367-2975</a>
                                         </p>
                                     </div>
                                 </div>
