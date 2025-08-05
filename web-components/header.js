@@ -5,7 +5,7 @@ class CustomHeader extends HTMLElement {
             <nav class="main-menu main-menu-three">
                 <div class="main-menu-three__wrapper">
                     <div class="main-menu-wrapper__logo">
-                        <a href="index.html"><img src="assets/images/resources/logo-2.png" alt="Junkle" width="100" width="100"></a>
+                        <a href="index.html"><img src="/assets/images/resources/logo-2.png" alt="Junkle" width="100" width="100"></a>
                     </div>
                     <div class="main-menu-three__main-menu">
                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
@@ -17,7 +17,7 @@ class CustomHeader extends HTMLElement {
                                 <a href="about.html">About</a>
                             </li>
                             <li class="dropdown megamenu">
-                                <a href="services.html">Services</a>
+                                <a href="/services.html">Services</a>
                                 <ul>
                                     <li>
                                         <div class="service-tabs">
@@ -53,17 +53,17 @@ class CustomHeader extends HTMLElement {
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
                                                                             <h3 class="service-tabs__title"><a
-                                                                                    href="junk-removal.html">Junk Removal</a></h3>
+                                                                                    href="/services/junk-removal.html">Junk Removal</a></h3>
                                                                             <p>We provide fast and reliable junk removal services for homes and businesses.</p>
                                                                             <a class="service-tabs__btn"
-                                                                                href="junk-removal.html">
+                                                                                href="/services/junk-removal.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
                                                                             </a>
                                                                             <!-- /.service-tabs__title -->
                                                                         </div><!-- /.service-tabs__text -->
                                                                         <div class="service-tabs__image">
-                                                                            <img src="assets/images/services/service-m-1-1.png"
+                                                                            <img src="/assets/images/services/service-m-1-1.png"
                                                                                 alt="">
                                                                         </div><!-- /.service-tabs__image -->
                                                                     </div><!-- /.service-tabs__content -->
@@ -73,17 +73,17 @@ class CustomHeader extends HTMLElement {
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
                                                                             <h3 class="service-tabs__title"><a
-                                                                                    href="demolition.html">Demolition</a></h3>
+                                                                                    href="/services/demolition.html">Demolition</a></h3>
                                                                             <p>We handle all types of demolition projects with precision.</p>
                                                                             <a class="service-tabs__btn"
-                                                                                href="demolition.html">
+                                                                                href="/services/demolition.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
                                                                             </a>
                                                                             <!-- /.service-tabs__title -->
                                                                         </div><!-- /.service-tabs__text -->
                                                                         <div class="service-tabs__image">
-                                                                            <img src="assets/images/services/service-m-1-2.png"
+                                                                            <img src="/assets/images/services/service-m-1-2.png"
                                                                                 alt="">
                                                                         </div><!-- /.service-tabs__image -->
                                                                     </div><!-- /.service-tabs__content -->
@@ -93,16 +93,16 @@ class CustomHeader extends HTMLElement {
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
                                                                             <h3 class="service-tabs__title"><a
-                                                                                    href="recycling.html">Recycling</a></h3>
+                                                                                    href="/services/recycling.html">Recycling</a></h3>
                                                                             <p>We recycle responsibly to reduce waste and protect the environment.</p>
                                                                             <a class="service-tabs__btn"
-                                                                                href="recycling.html">
+                                                                                href="/services/recycling.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
                                                                             </a>
                                                                         </div>
                                                                         <div class="service-tabs__image">
-                                                                            <img src="assets/images/services/service-m-1-3.png"
+                                                                            <img src="/assets/images/services/service-m-1-3.png"
                                                                                 alt="">
                                                                         </div>
                                                                     </div>
@@ -111,17 +111,17 @@ class CustomHeader extends HTMLElement {
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
                                                                             <h3 class="service-tabs__title"><a
-                                                                                    href="donations.html">Donation
+                                                                                    href="/services/donations.html">Donation
                                                                                     Pickup</a></h3>
                                                                             <p>We offer fast, friendly donation pickups for your convenience.</p>
                                                                             <a class="service-tabs__btn"
-                                                                                href="donations.html">
+                                                                                href="/services/donations.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
                                                                             </a>
                                                                         </div>
                                                                         <div class="service-tabs__image">
-                                                                            <img src="assets/images/services/service-m-1-4.png"
+                                                                            <img src="/assets/images/services/service-m-1-4.png"
                                                                                 alt="">
                                                                         </div>
                                                                     </div>
@@ -130,16 +130,16 @@ class CustomHeader extends HTMLElement {
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
                                                                             <h3 class="service-tabs__title"><a
-                                                                                    href="estate-cleanouts.html">Estate Cleanouts</a></h3>
+                                                                                    href="/services/estate-cleanouts.html">Estate Cleanouts</a></h3>
                                                                             <p>We provide thorough estate cleanouts with care and efficiency.</p>
                                                                             <a class="service-tabs__btn"
-                                                                                href="estate-cleanouts.html">
+                                                                                href="/services/estate-cleanouts.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
                                                                             </a>
                                                                         </div>
                                                                         <div class="service-tabs__image">
-                                                                            <img src="assets/images/services/service-m-1-5.png"
+                                                                            <img src="/assets/images/services/service-m-1-5.png"
                                                                                 alt="">
                                                                         </div>
                                                                     </div>
@@ -148,16 +148,16 @@ class CustomHeader extends HTMLElement {
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
                                                                             <h3 class="service-tabs__title"><a
-                                                                                    href="community-pickup.html">Community Pickup</a></h3>
+                                                                                    href="/services/community-specials.html">Community Pickup</a></h3>
                                                                             <p>Waste management for organizations and neighborhoods</p>
                                                                             <a class="service-tabs__btn"
-                                                                                href="community-pickup.html">
+                                                                                href="/services/community-specials.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
                                                                             </a>
                                                                         </div>
                                                                         <div class="service-tabs__image">
-                                                                            <img src="assets/images/services/service-m-1-6.png"
+                                                                            <img src="/assets/images/services/service-m-1-6.png"
                                                                                 alt="">
                                                                         </div>
                                                                     </div>
@@ -374,7 +374,6 @@ class CustomHeader extends HTMLElement {
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="main-menu-three__right">
@@ -395,7 +394,7 @@ class CustomHeader extends HTMLElement {
                     <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
                     <div class="logo-box">
-                        <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.png"
+                        <a href="index.html" aria-label="logo image"><img src="/assets/images/resources/logo-2.png"
                                 width="100" alt="Junkle" /></a>
                     </div>
                     <!-- /.logo-box -->

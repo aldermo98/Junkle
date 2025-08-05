@@ -76,17 +76,16 @@ html, body {
     background: unset;
 }
 
-@media (min-width: 991px) {
-    .main-slider-three .container {
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
+.main-slider-three .container {
+    padding-top: 125px !important;
+    padding-bottom: 125px !important;
 }
+
 
 @media only screen and (max-width: 767px) {
     .main-slider-three .container {
-        padding-top: 150px !important;
-        padding-bottom: 100px !important;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
     }
 
     .services-two__content-box{
@@ -403,4 +402,80 @@ html, body {
 
 .waste-materials__inner, .waste-materials-bg{
     background-color: #558e4c;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1440px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-slider-three-car{
+        position: relative;
+        left: 0;
+        top: 0;
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .main-slider-three-car img{
+        width: 70%;
+        float: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcome{
+        padding: 0 0 100px;
+    }
+
+    .main-slider-three .swiper-slide{
+        flex-wrap: wrap;
+    }
+}
+
+.always-working__points li .icon span {
+    background-color: var(--wostin-black);
+}
+
+.testimonial-one__client-name, .testimonial-one__quote span{
+    color: var(--wostin-green);
+}
+
+.why-choose-one__title, 
+.why-choose-one__text, 
+.why-choose-one__points li .text p, 
+.why-choose-one__points li .icon span, 
+.mobile-nav__content .main-menu__list li a button,
+.mobile-nav__contact li > i,
+.waste-materials__point-1 li .icon span,
+.service-details__cagegory-list li.active a span,
+.service-details__banner-title{
+    color: var(--wostin-black) !important;
+}
+
+.service-betails__benefits-text-1,
+.service-details__text-2{
+    color: var(--wostin-brown);
+}
+
+.service-details__points-icon span,
+.faq-one-accrodion .accrodion.active .accrodion-title h4{
+    color: var(--wostin-green);
+}
+
+.testimonial-one__client-content, 
+.testimonial-one__client-info{
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-widget__services {
+        margin-top: 0 !important;
+    }
+}
+
+.why-choose-one__img img {
+    width: auto;
 }

@@ -3,13 +3,13 @@ class CustomFooter extends HTMLElement {
     this.innerHTML = `
     <!--Site Footer Start-->
         <footer class="site-footer">
-            <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.jpg);">
+            <div class="site-footer-bg" style="background-image: url(/assets/images/backgrounds/site-footer-bg.jpg);">
             </div>
             <div class="site-footer__top">
                 <div class="container">
                     <div class="site-footer__top-inner">
                         <div class="site-footer__top-logo">
-                            <a href="index.html"><img src="assets/images/resources/logo-2.png" alt="Junkle" width="100px"></a>
+                            <a href="index.html"><img src="/assets/images/resources/logo-2.png" alt="Junkle" width="100px"></a>
                         </div>
                         <div class="site-footer__top-right">
                             <p class="site-footer__top-right-text">Call Junkle - Junk Removal with a purpose</p>
@@ -26,21 +26,6 @@ class CustomFooter extends HTMLElement {
             <div class="site-footer__middle">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="footer-widget__column footer-widget__about">
-                                <h3 class="footer-widget__title">About</h3>
-                                <div class="footer-widget__about-text-box">
-                                    <p class="footer-widget__about-text">Respectful Junk Removal That Gives Back</p>
-                                </div>
-                                <form class="footer-widget__newsletter-form">
-                                    <div class="footer-widget__newsletter-input-box">
-                                        <input type="email" placeholder="Email Address" name="email">
-                                        <button type="submit" class="footer-widget__newsletter-btn"><i
-                                                class="far fa-paper-plane"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
                         <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="footer-widget__column footer-widget__links clearfix">
                                 <h3 class="footer-widget__title">Links</h3>
@@ -57,10 +42,10 @@ class CustomFooter extends HTMLElement {
                                 <h3 class="footer-widget__title">Services</h3>
                                 <ul class="footer-widget__services-list list-unstyled clearfix">
                                     <li><a href="services.html">Junk Removal</a></li>
-                                    <li><a href="demolition.html">Demolition</a></li>
-                                    <li><a href="recycling.html">Recycling</a></li>
+                                    <li><a href="/services/demolition.html">Demolition</a></li>
+                                    <li><a href="/services/recycling.html">Recycling</a></li>
                                     <li><a href="donation-pickup.html">Donation Pickup</a></li>
-                                    <li><a href="estate-cleanouts.html">Estate Cleanouts</a></li>
+                                    <li><a href="/services/estate-cleanouts.html">Estate Cleanouts</a></li>
                                     <li><a href="community-days.html">Community Specials</a></li>
                                 </ul>
                             </div>
@@ -88,7 +73,7 @@ class CustomFooter extends HTMLElement {
             </div>
             <div class="site-footer__bottom">
                 <div class="site-footer-bottom-shape"
-                    style="background-image: url(assets/images/shapes/site-footer-bottom-shape.png);"></div>
+                    style="background-image: url(/assets/images/shapes/site-footer-bottom-shape.png);"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
