@@ -378,7 +378,7 @@ class CustomHeader extends HTMLElement {
                     </div>
                     <div class="main-menu-three__right">
                         <div class="main-menu-three__call">
-                            <a href="/free-quote.html" class="thm-btn thm-btn--bg-black">Free Quote</a>
+                            <a href="/free-quote" class="thm-btn thm-btn--bg-black">Free Quote</a>
                         </div>
                     </div>
                 </div>
