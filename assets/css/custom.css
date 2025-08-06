@@ -124,11 +124,13 @@ html, body {
     padding: 0.25rem 2rem;
 }
 
-.welcome__count {
+.welcome__count,
+.always-working__count {
     background-color: unset;    
 }
  
-.welcome__count:before {
+.welcome__count:before,
+.always-working__count:before {
     background-color: var(--wostin-primary);
     border: 3px solid var(--wostin-black);
     display: flex;

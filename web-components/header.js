@@ -374,6 +374,7 @@ class CustomHeader extends HTMLElement {
                                     </li>
                                 </ul>
                             </li>
+                            <li><a href="promotions.html">Promotions</a></li>
                         </ul>
                     </div>
                     <div class="main-menu-three__right">

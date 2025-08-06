@@ -30,10 +30,9 @@ class CustomFooter extends HTMLElement {
                             <div class="footer-widget__column footer-widget__links clearfix">
                                 <h3 class="footer-widget__title">Links</h3>
                                 <ul class="footer-widget__links-list list-unstyled clearfix">
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="https://api.leadconnectorhq.com/widget/booking/bkxdfwlLtaDhDrvFUeJE">Book a Pickup</a></li>
-                                    <li><a href="https://link.apisystem.tech/widget/form/ZGWJO5uJ9AsQqKcjqOVz">Free Quote</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="/about.html">About</a></li>
+                                    <li><a href="/free-quote">Book a Pickup</a></li>
+                                    <li><a href="/free-quote">Free Quote</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -41,12 +40,12 @@ class CustomFooter extends HTMLElement {
                             <div class="footer-widget__column footer-widget__services clearfix">
                                 <h3 class="footer-widget__title">Services</h3>
                                 <ul class="footer-widget__services-list list-unstyled clearfix">
-                                    <li><a href="services.html">Junk Removal</a></li>
+                                    <li><a href="/services/junk-removal.html">Junk Removal</a></li>
                                     <li><a href="/services/demolition.html">Demolition</a></li>
                                     <li><a href="/services/recycling.html">Recycling</a></li>
-                                    <li><a href="donation-pickup.html">Donation Pickup</a></li>
+                                    <li><a href="/services/donation-pickup.html">Donation Pickup</a></li>
                                     <li><a href="/services/estate-cleanouts.html">Estate Cleanouts</a></li>
-                                    <li><a href="community-days.html">Community Specials</a></li>
+                                    <li><a href="/services/community-specials.html">Community Specials</a></li>
                                 </ul>
                             </div>
                         </div>
