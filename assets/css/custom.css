@@ -437,6 +437,13 @@ html, body {
     }
 }
 
+@media screen and (max-width: 991px) {
+    .always-working{
+        padding: 50px 0;
+    }
+    
+}
+
 .always-working__points li .icon span {
     background-color: var(--wostin-black);
 }
