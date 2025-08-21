@@ -11,10 +11,10 @@ class CustomHeader extends HTMLElement {
                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                         <ul class="main-menu__list">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="/index.html">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="/about.html">About</a>
                             </li>
                             <li class="dropdown megamenu">
                                 <a href="/services.html">Services</a>
@@ -55,7 +55,7 @@ class CustomHeader extends HTMLElement {
                                                                             <h3 class="service-tabs__title"><a
                                                                                     href="/services/junk-removal.html">Junk Removal</a></h3>
                                                                             <p>We provide fast and reliable junk removal services for homes and businesses.</p>
-                                                                            <a class="service-tabs__btn"
+                                                                            <a class="py-1 px-2 thm-btn thm-btn--bg-black"
                                                                                 href="/services/junk-removal.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
@@ -75,7 +75,7 @@ class CustomHeader extends HTMLElement {
                                                                             <h3 class="service-tabs__title"><a
                                                                                     href="/services/demolition.html">Demolition</a></h3>
                                                                             <p>We handle all types of demolition projects with precision.</p>
-                                                                            <a class="service-tabs__btn"
+                                                                            <a class="py-1 px-2 thm-btn thm-btn--bg-black"
                                                                                 href="/services/demolition.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
@@ -95,7 +95,7 @@ class CustomHeader extends HTMLElement {
                                                                             <h3 class="service-tabs__title"><a
                                                                                     href="/services/recycling.html">Recycling</a></h3>
                                                                             <p>We recycle responsibly to reduce waste and protect the environment.</p>
-                                                                            <a class="service-tabs__btn"
+                                                                            <a class="py-1 px-2 thm-btn thm-btn--bg-black"
                                                                                 href="/services/recycling.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
@@ -114,7 +114,7 @@ class CustomHeader extends HTMLElement {
                                                                                     href="/services/donations.html">Donation
                                                                                     Pickup</a></h3>
                                                                             <p>We offer fast, friendly donation pickups for your convenience.</p>
-                                                                            <a class="service-tabs__btn"
+                                                                            <a class="py-1 px-2 thm-btn thm-btn--bg-black"
                                                                                 href="/services/donations.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
@@ -132,7 +132,7 @@ class CustomHeader extends HTMLElement {
                                                                             <h3 class="service-tabs__title"><a
                                                                                     href="/services/estate-cleanouts.html">Estate Cleanouts</a></h3>
                                                                             <p>We provide thorough estate cleanouts with care and efficiency.</p>
-                                                                            <a class="service-tabs__btn"
+                                                                            <a class="py-1 px-2 thm-btn thm-btn--bg-black"
                                                                                 href="/services/estate-cleanouts.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
@@ -150,7 +150,7 @@ class CustomHeader extends HTMLElement {
                                                                             <h3 class="service-tabs__title"><a
                                                                                     href="/services/community-specials.html">Community Pickup</a></h3>
                                                                             <p>Waste management for organizations and neighborhoods</p>
-                                                                            <a class="service-tabs__btn"
+                                                                            <a class="py-1 px-2 thm-btn thm-btn--bg-black"
                                                                                 href="/services/community-specials.html">
                                                                                 View More
                                                                                 <i class="fa fa-arrow-right"></i>
@@ -172,7 +172,7 @@ class CustomHeader extends HTMLElement {
                                 </ul>
                             </li>
                             <li class="dropdown megamenu">
-                                <a href="service-areas.html">Areas We Serve</a>
+                                <a href="/service-areas.html">Areas We Serve</a>
                                 <ul>
                                     <li>
                                         <div class="service-tabs">
@@ -224,144 +224,96 @@ class CustomHeader extends HTMLElement {
                                                                 <div class="tab active-tab animated fadeInUp" id="atlanta">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="atlanta.html">Atlanta</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/atlanta.html">Atlanta</a></h3>
                                                                             <p>Junk removal and related services in Atlanta, GA and surrounding neighborhoods.</p>
-                                                                            <a class="service-tabs__btn" href="atlanta.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="marietta">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="marietta.html">Marietta</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/marietta.html">Marietta</a></h3>
                                                                             <p>Full-service junk removal in Marietta, GA.</p>
-                                                                            <a class="service-tabs__btn" href="marietta.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="sandy-springs">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="sandy-springs.html">Sandy Springs</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/sandy-springs.html">Sandy Springs</a></h3>
                                                                             <p>Residential and commercial junk removal in Sandy Springs, GA.</p>
-                                                                            <a class="service-tabs__btn" href="sandy-springs.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="roswell">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="roswell.html">Roswell</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/roswell.html">Roswell</a></h3>
                                                                             <p>Junk hauling and cleanouts in Roswell, GA.</p>
-                                                                            <a class="service-tabs__btn" href="roswell.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="alpharetta">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="alpharetta.html">Alpharetta</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/alpharetta.html">Alpharetta</a></h3>
                                                                             <p>Junk removal and recycling in Alpharetta, GA.</p>
-                                                                            <a class="service-tabs__btn" href="alpharetta.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="decatur">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="decatur.html">Decatur</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/decatur.html">Decatur</a></h3>
                                                                             <p>Professional junk removal in Decatur, GA.</p>
-                                                                            <a class="service-tabs__btn" href="decatur.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="smryna">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="smyrna.html">Smyrna</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/smyrna.html">Smyrna</a></h3>
                                                                             <p>Junk pickup and cleanouts in Smyrna, GA.</p>
-                                                                            <a class="service-tabs__btn" href="smyrna.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="duluth">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="duluth.html">Duluth</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/duluth.html">Duluth</a></h3>
                                                                             <p>Junk removal services in Duluth, GA.</p>
-                                                                            <a class="service-tabs__btn" href="duluth.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="norcross">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="norcross.html">Norcross</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/norcross.html">Norcross</a></h3>
                                                                             <p>Junk hauling and disposal in Norcross, GA.</p>
-                                                                            <a class="service-tabs__btn" href="norcross.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="johns-creek">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="johns-creek.html">Johns Creek</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/johns-creek.html">Johns Creek</a></h3>
                                                                             <p>Junk removal and cleanouts in Johns Creek, GA.</p>
-                                                                            <a class="service-tabs__btn" href="johns-creek.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="lawrenceville">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="lawrenceville.html">Lawrenceville</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/lawrenceville.html">Lawrenceville</a></h3>
                                                                             <p>Junk removal and hauling in Lawrenceville, GA.</p>
-                                                                            <a class="service-tabs__btn" href="lawrenceville.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="tab" id="peachtree-city">
                                                                     <div class="service-tabs__content">
                                                                         <div class="service-tabs__text">
-                                                                            <h3 class="service-tabs__title"><a href="peachtree-city.html">Peachtree City</a></h3>
+                                                                            <h3 class="service-tabs__title"><a href="/peachtree-city.html">Peachtree City</a></h3>
                                                                             <p>Junk removal and recycling in Peachtree City, GA.</p>
-                                                                            <a class="service-tabs__btn" href="peachtree-city.html">
-                                                                                View More
-                                                                                <i class="fa fa-arrow-right"></i>
-                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -374,7 +326,7 @@ class CustomHeader extends HTMLElement {
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="promotions.html">Promotions</a></li>
+                            <li><a href="/promotions.html">Promotions</a></li>
                         </ul>
                     </div>
                     <div class="main-menu-three__right">
