@@ -59,8 +59,8 @@ class CustomFooter extends HTMLElement {
                                     </div>
                                     <div class="footer-widget__contact-content">
                                         <p class="footer-widget__contact-mail-phone">
-                                            <a href="mailto:info@support.calljunkle.com"
-                                                class="footer-widget__contact-mail">info@support.calljunkle.com</a>
+                                            <a href="mailto:daniel@calljunkle.com"
+                                                class="footer-widget__contact-mail">daniel@calljunkle.com</a>
                                             <a href="tel:(678) 367-2975" class="footer-widget__contact-phone">(678) 367-2975</a>
                                         </p>
                                     </div>

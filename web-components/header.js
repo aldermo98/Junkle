@@ -357,7 +357,7 @@ class CustomHeader extends HTMLElement {
                     <ul class="mobile-nav__contact list-unstyled">
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <a href="mailto:info@support.calljunkle.com">info@support.calljunkle.com</a>
+                            <a href="mailto:daniel@calljunkle.com">daniel@calljunkle.com</a>
                         </li>
                         <li>
                             <i class="fa fa-phone-alt"></i>
