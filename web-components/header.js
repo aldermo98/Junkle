@@ -5,7 +5,7 @@ class CustomHeader extends HTMLElement {
             <nav class="main-menu main-menu-three">
                 <div class="main-menu-three__wrapper">
                     <div class="main-menu-wrapper__logo">
-                        <a href="index.html"><img src="/assets/images/resources/logo-2.png" alt="Junkle" width="100" width="100"></a>
+                        <a href="index.html"><img src="/assets/images/resources/logo-char.png" alt="Junkle" width="100" width="100"></a>
                     </div>
                     <div class="main-menu-three__main-menu">
                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
@@ -347,7 +347,7 @@ class CustomHeader extends HTMLElement {
                     <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
                     <div class="logo-box">
-                        <a href="index.html" aria-label="logo image"><img src="/assets/images/resources/logo-2.png"
+                        <a href="index.html" aria-label="logo image"><img src="/assets/images/resources/logo-char.png"
                                 width="100" alt="Junkle" /></a>
                     </div>
                     <!-- /.logo-box -->

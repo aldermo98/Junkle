@@ -9,7 +9,7 @@ class CustomFooter extends HTMLElement {
                 <div class="container">
                     <div class="site-footer__top-inner">
                         <div class="site-footer__top-logo">
-                            <a href="index.html"><img src="/assets/images/resources/logo-2.png" alt="Junkle" width="100px"></a>
+                            <a href="index.html"><img src="/assets/images/resources/logo-char.png" alt="Junkle" width="100px"></a>
                         </div>
                         <div class="site-footer__top-right">
                             <p class="site-footer__top-right-text">Call Junkle - Junk Removal with a purpose</p>
